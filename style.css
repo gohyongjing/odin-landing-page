@@ -1,0 +1,154 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.intro,
+.call-to-action {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.header-logo {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: #F9FAF8
+}
+
+.intro.sign-up {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.intro-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro-title {
+    font-size: 24px;
+}
+
+.intro-description {
+    width: 500px;
+}
+
+.intro-image {
+    width: 500px;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.info-images {
+    gap: 20px;
+}
+
+.captioned-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 15px;
+}
+
+.caption {
+    width: 200px;
+    height: auto;
+    text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: 900;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.call-to-action-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.call-to-action-title {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+button {
+    flex: 1 1 auto;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 900;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid #F9FAF8;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+ul {
+    display: flex;
+    gap: 10px;
+}
+
+li {
+    list-style-type: none;
+}
